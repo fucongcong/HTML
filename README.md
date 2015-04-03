@@ -1,14 +1,14 @@
 # HTML
 
-1.HTML简介
+1.[HTML简介](http://superu.org/course/1)
 
-2.标签与元素
+2.[标签与元素](http://superu.org/course/1)
 
-3.HTML布局
+3.[HTML布局](http://superu.org/course/1)
 
-4.HTML的头部元素
+4.[HTML的头部元素](http://superu.org/course/1)
 
-5.完成你的第一个网站
+5.[完成你的第一个网站](http://superu.org/course/1)
 
 
 ## HTML简介
@@ -51,11 +51,12 @@ HTML 使用标记标签来描述网页
     </a>
     这是一段HTML链接元素
     
-####4.空元素（没有内容的 HTML 元素被称为空元素，如<br/>,<hr/>）
+####4.空元素（没有内容的 HTML 元素被称为空元素，如\<br/>,\<hr/>）
     
 ####5.块元素和内联元素
     块级元素，通常会以新行来开始（和结束），内联元素通常不会。
-####6.元素之间是可以嵌套的。（<div><span>Hello!</span></div>）
+####6.元素之间是可以嵌套的。
+    （<div><span>Hello!</span></div>）
 
 ### 标题与段落
 ------
