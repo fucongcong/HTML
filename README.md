@@ -75,7 +75,24 @@ HTML 使用标记标签来描述网页
     
 ### 链接与图像
 ------
+####1.链接
+    超链接可以是一个字，一个词，也可以是一幅图像，您可以点击这些内容来跳转到新网页或者当前网页中的某个部分。
+    我们通过使用 <a> 标签在 HTML 中创建链接。
+    常见属性：
+    (1) href
+    (2) target
+    (3) name和id (可以用于锚点)
 
+    锚点,跳转到当前网页中的某个部分,如:
+        <a href="#tip1">go to tip1</a>
+        <br/>
+        <a href="#tip2">go to tip2</a>
+        <div style="margin-top:1000px">
+           <a id="tip1">这是tip1</a>
+        </div>
+        <div style="margin-top:1000px">
+           <a name="tip2"> 这是tip2</a>
+        </div>
 ### 列表
 ------
 
