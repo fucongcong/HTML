@@ -130,7 +130,56 @@ HTML 使用标记标签来描述网页
 
 ### 表单
 ------
+    表单使用表单标签（<form>）定义。
     
+    <form method="" action="" enctype="multipart/form-data"></form>
+    
+    application/x-www-form-urlencoded  : 在发送前编码所有字符（默认）
+    multipart/form-data                : 在使用包含文件上传控件的表单时，必须使用该值。
+    text/plain                         : 空格转换为 "+" 加号，但不对特殊字符编码。
+    
+####1.输入标签(<input>)
+    常见type属性:
+    (1)文本域
+    <input type="text" name="email" />
+    (2)密码域
+    <input type="password" name="name" />
+    (3)单选按钮
+    <input type="radio" name="sex" value="male"/>男
+    <input type="radio" name="sex" value="female"/>女
+    (4)复选框
+    <input type="checkbox" name="address" value="杭州"/>杭州
+    <input type="checkbox" name="address" value="上海"/>上海
+####2.文本标签(<textarea>)
+    <textarea name="about" cols="2" rows="5"></textarea>
+####3.控制标签(<label>)
+    <label for="male">男</label>
+    <input type="radio" name="sex" value="male" id="male"/>
+    <label for="female">女</label>
+    <input type="radio" name="sex" value="female" id="female"/>
+####4.选择列表标签(<select>)
+    <select name="address">
+      <option value ="杭州">杭州</option>
+      <option value ="上海">上海</option>
+    </select>
+####5.定义域标签(<fieldset>)
+    <fieldset>
+        <legend>
+        性别
+        </legend>
+        <label for="male">男</label>
+        <input type="radio" name="sex" value="male" id="male"/>
+        <label for="female">女</label>
+        <input type="radio" name="sex" value="female" id="female"/>
+    </fieldset> 
+####5.按钮标签(<button>)
+    <form>
+        <input type="password" name="name" />
+        <button name="" type="button" >按钮</button>
+        <button name="" type="reset" >重置</button>
+        <button name="" type="submit" >提交</button>
+    </form>
+
 ## HTML布局
 
 ## HTML的头部元素
