@@ -130,7 +130,7 @@ HTML 使用标记标签来描述网页
 
 ### 表单
 ------
-    表单使用表单标签（\<form>）定义。
+    表单使用表单标签（<form>）定义。
     
     <form method="" action="" enctype="multipart/form-data"></form>
     
@@ -153,7 +153,7 @@ HTML 使用标记标签来描述网页
     <input type="checkbox" name="address" value="上海"/>上海
 ####2.文本标签(\<textarea>)
     <textarea name="about" cols="2" rows="5"></textarea>
-####3.控制标签(<label>)
+####3.控制标签(\<label>)
     <label for="male">男</label>
     <input type="radio" name="sex" value="male" id="male"/>
     <label for="female">女</label>
