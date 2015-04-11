@@ -1,6 +1,6 @@
 # HTML
 
-1.[HTML简介](http://superu.org/course/1)
+1.[HTML简介](#user-content-html简介)
 
 2.[标签与元素](http://superu.org/course/1)
 
