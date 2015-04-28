@@ -2,14 +2,15 @@
 
 1.[HTML简介](#user-content-html简介)
 
-2.[标签与元素](http://superu.org/course/1)
+2.[标签与元素](#user-content-标签与元素)
 
-3.[HTML布局](http://superu.org/course/1)
+3.[HTML布局](#user-content-HTML布局)
 
-4.[HTML的头部元素](http://superu.org/course/1)
+4.[HTML的头部元素](#user-content-HTML的头部元素)
 
-5.[完成你的第一个网站](http://superu.org/course/1)
+5.[完成你的第一个网站](#user-content-完成你的第一个网站)
 
+访问[superu.org观看课程](http://superu.org/course/1)
 
 ## HTML简介
 ####1.开发工具
@@ -90,7 +91,7 @@ HTML 使用标记标签来描述网页
         <div style="margin-top:1000px">
            <a id="tip1">这是tip1</a>
         </div>
-        <div style="margin-top:1000px">
+        <div style="margin-top:1000px;margin-bottom:1000px">
            <a name="tip2"> 这是tip2</a>
         </div>
 ####2.图像
