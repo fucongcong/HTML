@@ -174,7 +174,7 @@ HTML 使用标记标签来描述网页
         <label for="female">女</label>
         <input type="radio" name="sex" value="female" id="female"/>
     </fieldset> 
-####5.按钮标签(\<button>)
+####6.按钮标签(\<button>)
     <form>
         <input type="password" name="name" />
         <button name="" type="button" >按钮</button>
