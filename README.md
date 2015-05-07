@@ -1,16 +1,51 @@
 # HTML
 
-1.[HTML简介](#user-content-html简介)
+####1.[HTML简介](#user-content-html简介)
+- [开发工具](#user-content-1开发工具)
+- [HTML是什么？](#user-content-2html是什么)
+- [HTML这四个字母代表什么呢？](#user-content-3html这四个字母代表什么呢)
 
-2.[标签与元素](#user-content-标签与元素)
+####2.[标签与元素](#user-content-标签与元素)
+- [认识标签，元素和属性](#user-content-认识标签元素和属性)
+    - 标签
+    - 属性
+    - 元素
+    - 空元素
+    - 块元素和内联元素
+    - 素之间是可以嵌套的
+- [标题与段落](#user-content-标题与段落)
+    - 标题
+    - 段落
+- [链接与图像](#user-content-链接与图像)
+    - 链接
+    - 图像
+- [列表](#user-content-列表)
+    - 无序列表
+    - 有序列表
+    - 定义列表
+- [表单](#user-content-表单)
+    - 输入标签(`<input>`)
+    - 文本标签(`<textarea>`)
+    - 控制标签(`<label>`)
+    - 选择列表标签(`<select>`)
+    - 定义域标签(`<fieldset>`)
+    - 按钮标签(`<button>`)
+- [表格](#user-content-表格)
 
-3.[HTML布局](#user-content-HTML布局)
+####3.[HTML的头部元素](#user-content-html的头部元素)
+- [文档的类型](#user-content-文档的类型)
+- [标题](#user-content-标题)
+- [外部资源](#user-content-外部资源)
+- [元数据](#user-content-元数据)
+- [针对搜索引擎的关键词](#user-content-针对搜索引擎的关键词)
+- [属性](#user-content-属性)
+- [JS脚本](#user-content-js脚本)
 
-4.[HTML的头部元素](#user-content-HTML的头部元素)
+####4.[HTML布局](#user-content-html布局)
 
-5.[完成你的第一个网站](#user-content-完成你的第一个网站)
+####5.[完成你的第一个网站](#user-content-完成你的第一个网站)
 
-访问[superu.org观看课程](http://superu.org/course/1)
+访问[php.xitongxue.com观看课程](http://php.xitongxue.com)
 
 ## HTML简介
 ####1.开发工具
@@ -22,7 +57,7 @@
 ####2.HTML是什么？
 简要的说HTML 是用来描述网页的一种语言。
 
-#####3.HTML这四个字母代表什么呢？
+####3.HTML这四个字母代表什么呢？
 HTML是“HyperText Mark-up Language（超文本标记语言）”的缩写
 
 “超文本”就是指页面内可以包含图片、链接，甚至音乐、程序等非文字元素。
@@ -182,8 +217,74 @@ HTML 使用标记标签来描述网页
         <button name="" type="submit" >提交</button>
     </form>
 
+### 表格
+-----------
+    表格由 <table> 标签来定义。
+    表格中的表头我们用<th>标签来定义。
+    表格中的每一行我们用<tr>标签来定义，而每一行中的每一列用<td>来定义。
+    
+    ````
+    <table>
+    <tr>
+    <th>表头1</th>
+    <th>表头2</th>
+    </tr>
+    <tr>
+    <td>第一行第一列</td>
+    <td>第一行第二列</td>
+    </tr>
+    <tr>
+    <td>第二行第一列</td>
+    <td>第二行第二列</td>
+    </tr>
+    </table>
+    ````
+## HTML的头部元素
+    
+    这是一个最简单的HTML文件结构
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title></title>
+        </head>
+        <body>
+        </body>
+    </html>
+
+### 文档的类型
+    <!DOCTYPE> 声明帮助浏览器正确地显示网页。
+
+### 标题
+    <title> 标签定义文档的标题。
+
+### 外部资源
+    <link>  标签定义文档与外部资源之间的关系。
+
+    链接CSS样式表,rel="stylesheet"告诉浏览器这是一个样式文件
+    <head>
+    <link rel="stylesheet" href="mystyle.css" />
+    </head>
+
+### 元数据
+    <meta> 标签提供关于 HTML 文档的元数据。
+
+#### 针对搜索引擎的关键词
+    <meta name="description" content="系统学，学习技能的网站" />
+    <meta name="keywords" content="系统学" />
+    
+#### 属性
+    http-equiv 属性,超文本传输协议标题信息
+    //最常用的字符编码
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    //自动刷新跳转页面
+    ＜meta http-equiv="Refresh" content="2；URL=http://xitongxue.com"＞
+
+### JS脚本
+    <script> 标签用于定义客户端脚本。
+    
+    <script src="demo.js"></script>
+
 ## HTML布局
 
-## HTML的头部元素
 
 ## 完成你的第一个网站
