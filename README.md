@@ -1,4 +1,6 @@
 # HTML
+访问[php.xitongxue.com观看课程](http://xitongxue.com)
+关注我们的ＱＱ群：390536187
 
 ####1.[HTML简介](#user-content-html简介)
 - [开发工具](#user-content-1开发工具)
@@ -44,8 +46,6 @@
 ####4.[HTML布局](#user-content-html布局)
 
 ####5.[结束语](#user-content-结束语)
-
-访问[php.xitongxue.com观看课程](http://xitongxue.com)
 
 ## HTML简介
 ####1.开发工具
